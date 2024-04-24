@@ -361,7 +361,7 @@ void radix_sort(int arr[], int len, SDL_Renderer *renderer) {
 // =====================================================
 
 int main(void){
-    int random_numbers[400]; // Modify array sizde based on dimesions
+    int random_numbers[400]; // Modify array sizde based on dimensions
     int numbers_len = 400;
     srand(time(NULL));
     for (int i = 0; i < numbers_len; i++){
